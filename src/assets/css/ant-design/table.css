@@ -1,0 +1,45 @@
+/* Table Styles */
+
+.ant-table {
+    background-color: var(--table-background) !important;
+}
+
+thead > tr > th {
+    color: var(--table-text-color) !important;
+    background-color: var(--table-header-background) !important;
+}
+
+tbody > tr {
+    color: var(--table-text-color);
+    background-color: var(--table-background) !important;
+}
+
+tbody > tr > td {
+    border-color: var(--table-row-border) !important;
+}
+
+tbody > tr:hover > td {
+    color: var(--table-text-color) !important;
+    background-color: var(--table-row-hover-background) !important;
+}
+
+.ant-table-column-sort > .ant-table-column-has-sorters {
+    background-color: var(--table-row-hover-background) !important;
+}
+
+.ant-table .anticon {
+    color: var(--icon-color) !important;
+}
+
+td.ant-table-column-sort {
+    background-color: var(--table-row-hover-background) !important;
+}
+
+.ant-table-filter-dropdown input {
+    color: var(--table-search-input-text-color) !important;
+    background-color: var(--table-search-input-background) !important;
+}
+
+.ant-empty-description {
+    color: var(--table-text-color) !important;
+}

@@ -1,0 +1,18 @@
+/* Pagination Styles */
+.ant-pagination-item-link svg {
+    color: var(--pagination-icon-color);
+}
+
+.ant-pagination-item a {
+    color: var(--pagination-text-color) !important;
+    background-color: var(--pagination-bg-color) !important;
+}
+
+.ant-pagination-item-active {
+    color: var(--pagination-text-color) !important;
+    background-color: var(--pagination-bg-color) !important;
+}
+
+.ant-pagination .anticon {
+    color: var(--icon-color) !important;
+}
